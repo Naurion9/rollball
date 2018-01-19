@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class levelMov : MonoBehaviour {
 
+	private float f = 1.0f;
+
 	// Use this for initialization
 	void Start () {
 
@@ -12,10 +14,14 @@ public class levelMov : MonoBehaviour {
 			gyro.enabled = true;
 		}
 	}
-	
+
 	// Update is called once per frame
 	void FixedUpdate () {
-
-		transform.rotation = Input.gyro.attitude;		
+		Quaternion startRot = transform.rotation;
+		Quaternion gyroRot = Input.gyro.attitude;
+		Quaternion newRot = new Quaternion(gyroRot.x, gyroRot.z, gyroRot.y, gyroRot.w);
+		//Slerp hace el movmiento de newRot a startRot y se usa Inverse para que los ejes
+		//correspondan al movimiento real del smartphone
+		transform.rotation = Quaternion.Inverse(Quaternion.Slerp(startRot, newRot, f));
 	}
 }
