@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 173290161}
   m_Layer: 0
   m_Name: agujero (1)
-  m_TagString: Untagged
+  m_TagString: hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -284,18 +284,19 @@ Transform:
   m_Father: {fileID: 1184531591}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &173290161
-SphereCollider:
+--- !u!136 &173290161
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 173290156}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.2453295
-  m_Center: {x: 0.75467074, y: 0, z: -0.00000011920929}
+  m_Radius: 0.1148077
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.5995, z: 0}
 --- !u!1 &209814626
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,9 +562,10 @@ GameObject:
   - component: {fileID: 395450103}
   - component: {fileID: 395450102}
   - component: {fileID: 395450101}
+  - component: {fileID: 395450104}
   m_Layer: 0
   m_Name: agujero (4)
-  m_TagString: Untagged
+  m_TagString: hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -636,6 +638,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 395450099}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &395450104
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 395450099}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.1148077
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.5995, z: 0}
 --- !u!1 &422095767
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,9 +746,10 @@ GameObject:
   - component: {fileID: 423958672}
   - component: {fileID: 423958671}
   - component: {fileID: 423958670}
+  - component: {fileID: 423958673}
   m_Layer: 0
   m_Name: agujero (11)
-  m_TagString: Untagged
+  m_TagString: hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -806,6 +822,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 423958668}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &423958673
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 423958668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.1148077
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.5995, z: 0}
 --- !u!1 &444866144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1908,9 +1937,10 @@ GameObject:
   - component: {fileID: 798365252}
   - component: {fileID: 798365251}
   - component: {fileID: 798365250}
+  - component: {fileID: 798365253}
   m_Layer: 0
   m_Name: agujero (9)
-  m_TagString: Untagged
+  m_TagString: hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1983,6 +2013,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 798365248}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &798365253
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 798365248}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.1148077
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.5995, z: 0}
 --- !u!1 &861444818
 GameObject:
   m_ObjectHideFlags: 0
@@ -2246,9 +2289,10 @@ GameObject:
   - component: {fileID: 1035670248}
   - component: {fileID: 1035670247}
   - component: {fileID: 1035670246}
+  - component: {fileID: 1035670251}
   m_Layer: 0
   m_Name: agujero
-  m_TagString: Untagged
+  m_TagString: hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2315,12 +2359,25 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1035670245}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.75, y: 0, z: 0.99}
+  m_LocalPosition: {x: 4.662, y: 0, z: 0.818}
   m_LocalScale: {x: 0.5, y: 0.0006658579, z: 0.5}
   m_Children: []
   m_Father: {fileID: 1184531591}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1035670251
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1035670245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.114807725
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.59954, z: 0}
 --- !u!1 &1067895823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2332,9 +2389,10 @@ GameObject:
   - component: {fileID: 1067895827}
   - component: {fileID: 1067895826}
   - component: {fileID: 1067895825}
+  - component: {fileID: 1067895828}
   m_Layer: 0
   m_Name: agujero (10)
-  m_TagString: Untagged
+  m_TagString: hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2407,6 +2465,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1067895823}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &1067895828
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1067895823}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.1148077
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.5995, z: 0}
 --- !u!1 &1127825444
 GameObject:
   m_ObjectHideFlags: 0
@@ -2418,9 +2489,10 @@ GameObject:
   - component: {fileID: 1127825448}
   - component: {fileID: 1127825447}
   - component: {fileID: 1127825446}
+  - component: {fileID: 1127825449}
   m_Layer: 0
   m_Name: agujero (6)
-  m_TagString: Untagged
+  m_TagString: hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2493,6 +2565,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1127825444}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &1127825449
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1127825444}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.1148077
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.5995, z: 0}
 --- !u!1 &1145280653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2507,6 +2592,7 @@ GameObject:
   - component: {fileID: 1145280658}
   - component: {fileID: 1145280659}
   - component: {fileID: 1145280660}
+  - component: {fileID: 1145280661}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2574,7 +2660,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1145280653}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.68, y: 0.193, z: -3.6}
+  m_LocalPosition: {x: 3.68, y: 0.168, z: -3.6}
   m_LocalScale: {x: 0.39025515, y: 0.39025524, z: 0.39025524}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2604,7 +2690,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!195 &1145280660
@@ -2628,6 +2714,17 @@ NavMeshAgent:
   m_BaseOffset: 0.41
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1145280661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1145280653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e95624837c1c4d4d9d25e1ef20d180f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1145417947
 GameObject:
   m_ObjectHideFlags: 0
@@ -2825,9 +2922,10 @@ GameObject:
   - component: {fileID: 1179307338}
   - component: {fileID: 1179307337}
   - component: {fileID: 1179307336}
+  - component: {fileID: 1179307339}
   m_Layer: 0
   m_Name: agujero (13)
-  m_TagString: Untagged
+  m_TagString: hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2900,6 +2998,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1179307334}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &1179307339
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1179307334}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.1148077
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.5995, z: 0}
 --- !u!1 &1184531590
 GameObject:
   m_ObjectHideFlags: 0
@@ -3126,9 +3237,10 @@ GameObject:
   - component: {fileID: 1257647045}
   - component: {fileID: 1257647044}
   - component: {fileID: 1257647043}
+  - component: {fileID: 1257647046}
   m_Layer: 0
   m_Name: agujero (7)
-  m_TagString: Untagged
+  m_TagString: hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3201,6 +3313,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1257647041}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &1257647046
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1257647041}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.1148077
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.5995, z: 0}
 --- !u!1 &1285256264
 GameObject:
   m_ObjectHideFlags: 0
@@ -3212,9 +3337,10 @@ GameObject:
   - component: {fileID: 1285256268}
   - component: {fileID: 1285256267}
   - component: {fileID: 1285256266}
+  - component: {fileID: 1285256269}
   m_Layer: 0
   m_Name: agujero (5)
-  m_TagString: Untagged
+  m_TagString: hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3287,6 +3413,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1285256264}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &1285256269
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1285256264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.1148077
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.5995, z: 0}
 --- !u!1 &1338376616
 GameObject:
   m_ObjectHideFlags: 0
@@ -4072,9 +4211,10 @@ GameObject:
   - component: {fileID: 1667844092}
   - component: {fileID: 1667844091}
   - component: {fileID: 1667844090}
+  - component: {fileID: 1667844094}
   m_Layer: 0
   m_Name: agujero (3)
-  m_TagString: Untagged
+  m_TagString: hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4147,6 +4287,19 @@ Transform:
   m_Father: {fileID: 1184531591}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1667844094
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1667844089}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.1148077
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.5995, z: 0}
 --- !u!1 &1702287404
 GameObject:
   m_ObjectHideFlags: 0
@@ -4319,9 +4472,10 @@ GameObject:
   - component: {fileID: 1750577830}
   - component: {fileID: 1750577829}
   - component: {fileID: 1750577828}
+  - component: {fileID: 1750577832}
   m_Layer: 0
   m_Name: agujero (2)
-  m_TagString: Untagged
+  m_TagString: hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4394,6 +4548,19 @@ Transform:
   m_Father: {fileID: 1184531591}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1750577832
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750577827}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.1148077
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.5995, z: 0}
 --- !u!1 &1755037499
 GameObject:
   m_ObjectHideFlags: 0
@@ -4716,9 +4883,10 @@ GameObject:
   - component: {fileID: 1984241087}
   - component: {fileID: 1984241085}
   - component: {fileID: 1984241086}
+  - component: {fileID: 1984241089}
   m_Layer: 0
   m_Name: meta
-  m_TagString: Untagged
+  m_TagString: meta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4791,6 +4959,19 @@ Transform:
   m_Father: {fileID: 1748986685}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1984241089
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1984241084}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.1148077
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.5995, z: 0}
 --- !u!1 &2076630349
 GameObject:
   m_ObjectHideFlags: 0
@@ -4802,9 +4983,10 @@ GameObject:
   - component: {fileID: 2076630353}
   - component: {fileID: 2076630352}
   - component: {fileID: 2076630351}
+  - component: {fileID: 2076630354}
   m_Layer: 0
   m_Name: agujero (8)
-  m_TagString: Untagged
+  m_TagString: hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4877,6 +5059,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2076630349}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &2076630354
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2076630349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.1148077
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.5995, z: 0}
 --- !u!1 &2132107829
 GameObject:
   m_ObjectHideFlags: 0
@@ -4888,9 +5083,10 @@ GameObject:
   - component: {fileID: 2132107833}
   - component: {fileID: 2132107832}
   - component: {fileID: 2132107831}
+  - component: {fileID: 2132107834}
   m_Layer: 0
   m_Name: agujero (12)
-  m_TagString: Untagged
+  m_TagString: hole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4963,3 +5159,16 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2132107829}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!136 &2132107834
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2132107829}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.1148077
+  m_Height: 386.5011
+  m_Direction: 1
+  m_Center: {x: 0, y: 113.5995, z: 0}
