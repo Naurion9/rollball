@@ -25,7 +25,6 @@ public class createDBTest : MonoBehaviour {
 
 
 		var lb = ds.GetLeaderBoard();
-		var pl = lb.GetEnumerator ();
 		Debug.Log(string.Format("{0}", lb.ElementAt(0).name));
 
 		foreach (var topScores in lb) {
