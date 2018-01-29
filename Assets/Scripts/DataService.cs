@@ -60,13 +60,13 @@ public class DataService  {
 		var dbPath = filepath;
 		#endif
 		_connection = new SQLiteConnection(dbPath, SQLiteOpenFlags.ReadWrite | SQLiteOpenFlags.Create);
+		_connection.CreateTable<topScores> ();
 		Debug.Log("Final PATH: " + dbPath);     
 
 		}
 
 		public void CreateDB(){
-		_connection.DropTable<topScores> ();
-		_connection.CreateTable<topScores> ();
+		//_connection.CreateTable<topScores> ();
 
 //		_connection.InsertAll (new[]{
 //		new Person{

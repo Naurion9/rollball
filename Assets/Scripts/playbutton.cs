@@ -26,7 +26,6 @@ public class playbutton : MonoBehaviour {
 		if (btn.name == "Play Button") {
 			SceneManager.LoadScene ("level1");
 		} else if (btn.name == "Exit Button") {
-			Debug.Log ("Parece que no pero sí");
 			Application.Quit ();
 		} else if (btn.name == "hs button") {
 			tablemenu.SetActive (true);
