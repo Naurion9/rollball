@@ -36,4 +36,24 @@ public class printhighscores : MonoBehaviour {
 		namecolumn.text = names;
 		scorecolumn.text = scores;
 	}
+
+	public void newScore(string name, int score){
+		var ds = new DataService (dbname);
+		var lb = ds.GetLeaderBoard ();
+
+		if (lb.Count () < 10){
+			ds.CreateTopScore (name, score);
+		} else {
+			if (lb.ElementAt (9).score < score) {
+				ds.deleteTopScore (lb.ElementAt (9));
+				ds.CreateTopScore (name, score);
+			}
+		}
+	}
+
+	public int checkLowestScore(){
+		var ds = new DataService (dbname);
+		var lb = ds.GetLeaderBoard ();
+		return lb.ElementAt (9).score;
+	}
 }

@@ -96,6 +96,10 @@ public class DataService  {
 //		});
 		}
 
+		public void deleteTopScore(topScores todel){
+		_connection.Delete(todel);
+		}
+
 		public IEnumerable<topScores> GetLeaderBoard(){
 		return _connection.Table<topScores>().OrderByDescending(x => x.score);
 		}
