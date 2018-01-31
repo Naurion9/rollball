@@ -179,8 +179,8 @@ MonoBehaviour:
     y: 580
     width: 1032
     height: 367
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -228,8 +228,8 @@ MonoBehaviour:
     y: 0
     width: 423
     height: 416
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -278,8 +278,8 @@ MonoBehaviour:
     y: 0
     width: 465
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -391,14 +391,14 @@ MonoBehaviour:
     height: 559
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 1305.681785197566
-  m_2DMode: 1
+  lastFramingTime: 2199.0116107776557
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 254.91534, y: 173.15482, z: 100.125}
+    m_Target: {x: 1.6311779, y: 9.679652, z: -4.7467694}
     speed: 2
-    m_Value: {x: 254.91534, y: 173.15482, z: 100.125}
+    m_Value: {x: 1.6311779, y: 9.679652, z: -4.7467694}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -414,25 +414,25 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
       m_Target: 1
       speed: 2
       m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.13713752, y: -0.74454033, z: 0.16127118, w: 0.633123}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.13713752, y: -0.74454033, z: 0.16127118, w: 0.633123}
   m_Size:
-    m_Target: 331.23962
+    m_Target: 11.002919
     speed: 2
-    m_Value: 331.23962
+    m_Value: 11.002919
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_ShowGlobalGrid: 1
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
@@ -498,7 +498,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 347efdff067ffdfffc80fdff0481fdff1681fdffb68dfdffba8efdff8e93fdff9e3bfeff6278feffa081feff4e84feff06bffeff48bffeffbc77ffffb8a8ffffa2f9ffffa6f9ffffe4f9ffff9efbffff000000009c290000c82900004a2a00004c2a0000582a0000802f0000063000000c300000c0390000e23900000a3a0000323a0000f64e0000864f0000a44f0000a64f00008c6100009c610000ae610000be6100000e620000046700000c6700001c6700002e6700003e6700004a670000526700008e6700009e6700008a6c0000
+    m_ExpandedIDs: 3c9ffeff12a0feff06a2feff0ea2feff20a2feff1aa7feff92e9feff54effeff1af0feff0ef2feff16f2feff28f2feff0230ffffd830ffffd032ffffdc32fffff232ffff4ac8ffff9efbffff000000000a2c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -564,7 +564,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets/_Scenes
+  - Assets
   m_LastFoldersGridSize: 60
   m_LastProjectPath: C:\Users\IVAN\Documents\Unity Projects\rollball
   m_IsLocked: 0
@@ -572,7 +572,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 84270000
     m_LastClickedID: 10116
-    m_ExpandedIDs: 0000000084270000fa270000ffffff7f
+    m_ExpandedIDs: 0000000084270000f8270000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -600,7 +600,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000084270000fa270000
+    m_ExpandedIDs: 0000000084270000f8270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

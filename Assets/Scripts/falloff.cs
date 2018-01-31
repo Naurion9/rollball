@@ -97,6 +97,8 @@ public class falloff : MonoBehaviour {
 	}
 
 	public void enterNewScore(){
-		dbcontrol.newScore (newname.text, PlayerStats.Points);
+		if (newname.text == ""){
+			dbcontrol.newScore (newname.text, PlayerStats.Points);
+		}
 	}
 }

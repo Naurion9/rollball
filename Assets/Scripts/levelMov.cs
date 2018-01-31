@@ -8,7 +8,6 @@ public class levelMov : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		transform.position = new Vector3 (0, 0, 0);
 		Gyroscope gyro = Input.gyro;
 		if (!gyro.enabled){
 			gyro.enabled = true;
@@ -19,7 +18,7 @@ public class levelMov : MonoBehaviour {
 	void FixedUpdate () {
 		Quaternion startRot = transform.rotation;
 		Quaternion gyroRot = Input.gyro.attitude;
-		Quaternion newRot = new Quaternion(gyroRot.x, gyroRot.z, gyroRot.y, gyroRot.w);
+		Quaternion newRot = new Quaternion(gyroRot.x, 0, gyroRot.y, gyroRot.w);
 		//Slerp hace el movmiento de newRot a startRot y se usa Inverse para que los ejes
 		//correspondan al movimiento real del smartphone
 		transform.rotation = Quaternion.Inverse(Quaternion.Slerp(startRot, newRot, f));

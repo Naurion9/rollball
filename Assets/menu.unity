@@ -402,7 +402,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 522.7, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -1127,8 +1127,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.6, y: -1.1}
-  m_SizeDelta: {x: 428, y: 69.1}
+  m_AnchoredPosition: {x: -35, y: -0.2}
+  m_SizeDelta: {x: 428, y: 223.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1103411635
 MonoBehaviour:
@@ -1687,7 +1687,7 @@ Camera:
   m_GameObject: {fileID: 1866144596}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
