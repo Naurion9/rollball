@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 95
+  controlID: 72
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,9 +396,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.6311779, y: 9.679652, z: -4.7467694}
+    m_Target: {x: 3.485138, y: 0.9446357, z: -2.2192175}
     speed: 2
-    m_Value: {x: 1.6311779, y: 9.679652, z: -4.7467694}
+    m_Value: {x: 3.485138, y: 0.9446357, z: -2.2192175}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -422,13 +422,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.13713752, y: -0.74454033, z: 0.16127118, w: 0.633123}
+    m_Target: {x: -0.025083663, y: 0.9561357, z: -0.27889076, w: -0.08599597}
     speed: 2
-    m_Value: {x: -0.13713752, y: 0.74454033, z: -0.16127118, w: -0.633123}
+    m_Value: {x: -0.025083663, y: 0.9561357, z: -0.27889076, w: -0.08599597}
   m_Size:
-    m_Target: 11.002919
+    m_Target: 0.33047873
     speed: 2
-    m_Value: 11.002919
+    m_Value: 0.33047873
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -498,7 +498,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 18f0ffffecf0fffff8f1ffff8ef2ffffa0f2ffffacf8ffff9efbffff00000000
+    m_ExpandedIDs: a6cbffff80ccffff8ccdffff22ceffff34ceffff9efbffff00000000fa2800003a29000090290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -560,18 +560,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: 60
   m_LastProjectPath: C:\Users\IVAN\Documents\Unity Projects\rollball
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 86270000
-    m_LastClickedID: 10118
+    m_SelectedIDs: f8270000
+    m_LastClickedID: 10232
     m_ExpandedIDs: 0000000086270000fa270000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -652,7 +652,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 82}
     m_GridSize: 60
   m_DirectoriesAreaWidth: 194
 --- !u!114 &18

@@ -97,7 +97,7 @@ public class falloff : MonoBehaviour {
 	}
 
 	public void enterNewScore(){
-		if (newname.text == ""){
+		if (newname.text != ""){
 			dbcontrol.newScore (newname.text, PlayerStats.Points);
 		}
 	}
