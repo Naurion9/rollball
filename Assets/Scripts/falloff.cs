@@ -15,6 +15,7 @@ public class falloff : MonoBehaviour {
 	public GameObject canvas;
 	private countdown script;
 
+	[HideInInspector]
 	public bool isgameover = false;
 	private bool clearlevel = false;
 
@@ -23,7 +24,10 @@ public class falloff : MonoBehaviour {
 
 	private Rigidbody player;
 
+	public DataService ds;
+
 	void Awake(){
+		ds = new DataService ("testDB.db");
 		//DontDestroyOnLoad (transform.gameObject);
 		finalpanel.SetActive (false);
 		gameoverUI.SetActive (false);
@@ -72,7 +76,7 @@ public class falloff : MonoBehaviour {
 			nextlevel.SetActive (true);
 			Time.timeScale = 0;
 		}
-		var ds = new DataService("testDB.db");
+		//var ds = new DataService("testDB.db");
 		if (SceneManager.GetActiveScene().buildIndex == 2 && (ds.GetLeaderBoard ().Count () < 10 || PlayerStats.Points > dbcontrol.checkLowestScore())){
 			inputops.SetActive (true);
 		}

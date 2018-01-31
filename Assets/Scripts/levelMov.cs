@@ -8,7 +8,7 @@ public class levelMov : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+		transform.position = new Vector3 (0, 0, 0);
 		Gyroscope gyro = Input.gyro;
 		if (!gyro.enabled){
 			gyro.enabled = true;
